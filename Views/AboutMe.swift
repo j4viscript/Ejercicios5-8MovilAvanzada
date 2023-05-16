@@ -10,7 +10,6 @@ import SwiftUI
 struct AboutMe: View {
     var body: some View {
         VStack {
-            Spacer()
             Image(systemName: "person.circle")
                 .resizable()
                 .frame(width: 150, height: 150)
